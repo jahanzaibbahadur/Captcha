@@ -1,5 +1,5 @@
 {
-	"name" : "ne0n/captcha",
+	"name" : "latrell/laravel-captcha",
 	"description" : "Captcha Package for Laravel 5",
 	"keywords" : [
 		"L5",
