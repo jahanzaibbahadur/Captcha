@@ -1,9 +1,9 @@
 {
-	"name" : "latrell/laravel-captcha",
+	"name" : "jahanzaibbahadur/laravel-captcha",
 	"description" : "Captcha Package for Laravel 5",
 	"keywords" : [
-		"L5",
-		"Laravel 5",
+		"L6",
+		"Laravel 6",
 		"Laravel",
 		"Captcha",
 		"security",
