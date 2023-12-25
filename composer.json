@@ -2,8 +2,8 @@
 	"name" : "jahanzaibbahadur/laravel-captcha",
 	"description" : "Captcha Package for Laravel 5",
 	"keywords" : [
-		"L8",
-		"Laravel 8",
+		"L10",
+		"Laravel 10",
 		"Laravel",
 		"Captcha",
 		"security",
@@ -16,8 +16,8 @@
 		}
 	],
 	"require" : {
-		"php" : ">=7.2",
-		"illuminate/support" : "8.*",
+		"php" : "^8.1",
+		"illuminate/support" : "10.*",
 		"gregwar/captcha" : "1.*"
 	},
 	"autoload" : {
