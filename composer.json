@@ -16,8 +16,8 @@
 		}
 	],
 	"require" : {
-		"php" : "^8.1",
-		"illuminate/support" : "10.*",
+		"php" : "^8.2",
+		"illuminate/support" : "11.*",
 		"gregwar/captcha" : "1.*"
 	},
 	"autoload" : {
