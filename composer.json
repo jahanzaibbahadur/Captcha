@@ -1,41 +1,42 @@
 {
-	"name" : "jahanzaibbahadur/laravel-captcha",
-	"description" : "Captcha Package for Laravel 5",
-	"keywords" : [
-		"L11",
-		"Laravel 11",
-		"Laravel",
-		"Captcha",
-		"security",
-		"captcha image"
-	],
-	"license" : "MIT",
-	"authors" : [{
-			"name" : "Latrell Chan",
-			"email" : "i@latrell.me"
-		}
-	],
-	"require" : {
-		"php" : "^8.2",
-		"illuminate/support" : "11.*",
-		"gregwar/captcha" : "1.*"
-	},
-	"autoload" : {
-		"classmap" : [
-			"src/controllers"
-		],
-		"psr-0" : {
-			"Latrell\\Captcha\\" : "src/"
-		}
-	},
-	"extra" : {
-		"laravel" : {
-			"providers" : [
-				"Latrell\\Captcha\\CaptchaServiceProvider"
-			],
-			"aliases" : {
-				"Captcha" : "Latrell\\Captcha\\Facades\\Captcha"
-			}
-		}
-	}
+  "name": "jahanzaibbahadur/laravel-captcha",
+  "description": "Captcha Package for Laravel",
+  "keywords": [
+    "L8",
+    "L9",
+    "L10",
+    "L11",
+    "Laravel",
+    "Captcha",
+    "security",
+    "captcha image"
+  ],
+  "license": "MIT",
+  "authors": [{
+    "name": "Latrell Chan",
+    "email": "i@latrell.me"
+  }],
+  "require": {
+    "php": "^8.1 || ^8.2",
+    "illuminate/support": "^8.0 || ^9.0 || ^10.0 || ^11.0",
+    "gregwar/captcha": "1.*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/controllers"
+    ],
+    "psr-0": {
+      "Latrell\\Captcha\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Latrell\\Captcha\\CaptchaServiceProvider"
+      ],
+      "aliases": {
+        "Captcha": "Latrell\\Captcha\\Facades\\Captcha"
+      }
+    }
+  }
 }
